@@ -17,3 +17,10 @@ Things I would still like to do:
 - Change up colours, maybe redesign to make it more vibrant?
 - Personalize, add more sections for hobbies and photography
 - Clean up code!!
+
+
+NOTE TO FUTURE SELF:
+- You overcomplicated the process of having your website update itself when you set it up years ago. There's apparently free tools that grab your github repo and update your domain accordingly smh.
+- In the case you get a new laptop and didn't change how you deal with updating the code on the website you need to do the following:
+  - git remote add deploy_server ssh://<username>@<domain>/path/to/git/folder.git/
+  - then log in and push freely :)
